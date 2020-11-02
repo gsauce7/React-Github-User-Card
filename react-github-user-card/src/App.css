@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  
+}
+/*reset finished*/
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Comfortaa&family=Roboto&display=swap');
 
 
@@ -45,20 +51,28 @@ inset 0 -3em 3em rgba(0,0,0,0.1),
 }
 
 h1{
+  padding-top: 2rem;
   font-family: 'Comfortaa';
   color: white;
   text-shadow: 6px 2px black;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 h2{
   font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 button {
   font-family: 'Comfortaa';
   background-color: whitesmoke;
-  margin: px;
+  margin: 2rem;
   width: 10rem;
+}
+
+a {
+  color: black;
+  background-color: lightgray;
+  padding: .5rem;
 }
 
 input {
